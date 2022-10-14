@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-https://www.codewars.com/users/kirillyat/badges/small
+<img href ='https://www.codewars.com/users/kirillyat/badges/small'>
 
 <!--
 **kirillyat/kirillyat** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
