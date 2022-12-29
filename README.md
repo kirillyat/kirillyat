@@ -2,7 +2,7 @@
 
 
 [![](https://www.codewars.com/users/kirillyat/badges/small)](https://leetcode.com/puiiyuen)
-[![](https://badges.peiyuan.ch/leetcode/kirillyat/ranking?label=puiiyuen&logo=leetcode)](https://leetcode.com/kirillyat)
+[![](https://badges.peiyuan.ch/leetcode/kirillyat/ranking?label=kirillyat&logo=leetcode)](https://leetcode.com/kirillyat)
 
 <!--
 **kirillyat/kirillyat** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
