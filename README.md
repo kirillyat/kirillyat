@@ -1,7 +1,6 @@
 ### Hi there 👋
 
 
-[![](https://www.codewars.com/users/kirillyat/badges/small)](https://leetcode.com/puiiyuen)
 [![](https://badges.peiyuan.ch/leetcode/kirillyat/ranking?label=kirillyat&logo=leetcode)](https://leetcode.com/kirillyat)
 
 <!--
