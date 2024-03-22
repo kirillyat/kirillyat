@@ -2,6 +2,7 @@
 
 
 [![](https://badges.peiyuan.ch/leetcode/kirillyat/ranking?label=kirillyat&logo=leetcode)](https://leetcode.com/kirillyat)
+[monkeytype.badge]: https://img.shields.io/endpoint?style=flat&url=https%3A%2F%2Fmonkeytype-badge-vhd5lan7mmhz.runkit.sh
 
 <!--
 **kirillyat/kirillyat** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
