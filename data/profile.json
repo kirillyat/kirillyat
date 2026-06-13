@@ -1,0 +1,185 @@
+{
+  "_note": "ЕДИНЫЙ ИСТОЧНИК ПРАВДЫ. Правь только этот файл, потом запусти `node scripts/build.mjs` — обновятся cv/*.md, README, cv.json и данные сайта. Поля с {en,ru,fr} — переводимые; остальное (даты, компании, стек, ссылки) пишется один раз.",
+  "basics": {
+    "name": { "en": "Kirill Yatsenko", "ru": "Кирилл Яценко", "fr": "Kirill Yatsenko" },
+    "label": {
+      "en": "Software Engineer — high-load systems, distributed computing, backend (C++ / Go / Python)",
+      "ru": "Инженер-разработчик — высоконагруженные системы, распределённые вычисления, бэкенд (C++ / Go / Python)",
+      "fr": "Ingénieur logiciel — systèmes à forte charge, calcul distribué, backend (C++ / Go / Python)"
+    },
+    "location": { "en": "Moscow", "ru": "Москва", "fr": "Moscou" },
+    "email": "kirillyat@gmail.com",
+    "summary": {
+      "en": "Experienced software engineer specializing in high-load systems, algorithms, distributed computing, and backend development in Python, Golang, and C++.",
+      "ru": "Опытный инженер-разработчик, специализируюсь на высоконагруженных системах, алгоритмах, распределённых вычислениях и бэкенд-разработке на Python, Golang и C++.",
+      "fr": "Ingénieur logiciel expérimenté, spécialisé dans les systèmes à forte charge, les algorithmes, le calcul distribué et le développement backend en Python, Golang et C++."
+    },
+    "profiles": [
+      { "network": "Telegram", "handle": "@kirillyat", "url": "https://t.me/kirillyat" },
+      { "network": "GitHub", "handle": "github.com/kirillyat", "url": "https://github.com/kirillyat" },
+      { "network": "LeetCode", "handle": "kirillyat", "url": "https://leetcode.com/kirillyat" }
+    ]
+  },
+  "work": [
+    {
+      "company": "Yandex",
+      "stack": ["C++"],
+      "start": "2024-09",
+      "end": null,
+      "role": { "en": "Software Engineer, C++", "ru": "Разработчик C++", "fr": "Ingénieur logiciel C++" },
+      "team": { "en": "Geo Discovery, Yandex Go", "ru": "Гео-дискавери, Яндекс Go", "fr": "Geo Discovery, Yandex Go" },
+      "impact": {
+        "en": "high-performance C++ services for place discovery in Yandex Go maps",
+        "ru": "высокопроизводительные C++-сервисы для дискавери в картах Яндекс Go",
+        "fr": "services C++ haute performance pour la découverte de lieux dans Yandex Go"
+      },
+      "highlights": [
+        {
+          "en": "Architected high-performance C++ services for user discovery in Yandex Go maps",
+          "ru": "Проектирую высокопроизводительные C++-сервисы для дискавери в картах Яндекс Go",
+          "fr": "Conception de services C++ haute performance pour la découverte de lieux dans les cartes de Yandex Go"
+        },
+        {
+          "en": "Designed new place-discovery user scenarios, improving engagement through cross-team collaboration",
+          "ru": "Разработал новые пользовательские сценарии поиска мест, повысив вовлечённость за счёт кросс-командной работы",
+          "fr": "Création de nouveaux parcours utilisateur de découverte de lieux, améliorant l'engagement grâce à une collaboration inter-équipes"
+        },
+        {
+          "en": "Built efficient search and exploration of venues and local experiences",
+          "ru": "Реализовал эффективный поиск и исследование заведений и локальных активностей",
+          "fr": "Mise en place d'une recherche et d'une exploration efficaces des lieux et expériences locales"
+        }
+      ]
+    },
+    {
+      "company": "Avito",
+      "stack": ["Go"],
+      "start": "2023-09",
+      "end": "2024-09",
+      "role": { "en": "Software Engineer, Golang", "ru": "Разработчик Golang", "fr": "Ingénieur logiciel Golang" },
+      "team": { "en": "Billing Core", "ru": "Billing Core", "fr": "Billing Core" },
+      "impact": {
+        "en": "cut financial report generation from 10 min to 250 ms",
+        "ru": "сократил генерацию финансовой отчётности с 10 минут до 250 мс",
+        "fr": "réduit la génération des rapports financiers de 10 min à 250 ms"
+      },
+      "highlights": [
+        {
+          "en": "Optimized financial report aggregation, cutting generation time from 10 minutes to 250 ms (97.6% improvement)",
+          "ru": "Оптимизировал агрегацию финансовой отчётности: время генерации сократилось с 10 минут до 250 мс (на 97,6%)",
+          "fr": "Optimisation de l'agrégation des rapports financiers : temps de génération réduit de 10 minutes à 250 ms (−97,6 %)"
+        },
+        {
+          "en": "Implemented reliable data replication ensuring consistency across analytical databases",
+          "ru": "Реализовал надёжную репликацию данных, обеспечив консистентность аналитических баз",
+          "fr": "Mise en œuvre d'une réplication de données fiable garantissant la cohérence des bases analytiques"
+        },
+        {
+          "en": "Introduced observability and monitoring that prevented financial reporting discrepancies",
+          "ru": "Внедрил мониторинг и observability, предотвратив расхождения в финансовой отчётности",
+          "fr": "Introduction d'outils d'observabilité et de monitoring prévenant les écarts dans les rapports financiers"
+        }
+      ]
+    },
+    {
+      "company": "Yandex",
+      "stack": ["Python"],
+      "start": "2021-08",
+      "end": "2023-09",
+      "role": { "en": "Software Engineer, Python", "ru": "Разработчик Python", "fr": "Ingénieur logiciel Python" },
+      "team": { "en": "Driver Acquisition, Yandex Go", "ru": "Привлечение водителей, Яндекс Go", "fr": "Acquisition de chauffeurs, Yandex Go" },
+      "impact": {
+        "en": "backend services powering core platform features",
+        "ru": "бэкенд-сервисы для ключевых платформенных фич",
+        "fr": "services backend au cœur de la plateforme"
+      },
+      "highlights": [
+        {
+          "en": "Developed backend services powering core platform features",
+          "ru": "Разрабатывал бэкенд-сервисы для ключевых платформенных фич",
+          "fr": "Développement de services backend au cœur des fonctionnalités de la plateforme"
+        },
+        {
+          "en": "Collaborated with cross-functional teams on system design and optimization",
+          "ru": "Участвовал в проектировании и оптимизации систем вместе с кросс-функциональными командами",
+          "fr": "Collaboration avec des équipes pluridisciplinaires sur la conception et l'optimisation des systèmes"
+        }
+      ]
+    }
+  ],
+  "teaching": [
+    {
+      "org": { "en": "Central University", "ru": "Центральный университет", "fr": "Central University" },
+      "start": "2025-07",
+      "end": null,
+      "role": { "en": "Lecturer", "ru": "лектор", "fr": "Chargé de cours" },
+      "subject": { "en": "Python & web", "ru": "Python и веб", "fr": "Python & web" },
+      "highlights": [
+        {
+          "en": "Lectures and seminars on Python web development and modern frameworks",
+          "ru": "Лекции и семинары по веб-разработке на Python и современным фреймворкам",
+          "fr": "Cours magistraux et travaux dirigés sur le développement web en Python et les frameworks modernes"
+        }
+      ]
+    },
+    {
+      "org": { "en": "Higher School of Economics", "ru": "НИУ ВШЭ", "fr": "Higher School of Economics" },
+      "start": "2025-03",
+      "end": null,
+      "role": { "en": "Seminar Instructor", "ru": "семинарист", "fr": "Chargé de TD" },
+      "subject": { "en": "algorithms & C++", "ru": "алгоритмы и C++", "fr": "algorithmes & C++" },
+      "highlights": [
+        {
+          "en": "Seminars on algorithms, data structures, Python, and C++ with hands-on instruction in core CS concepts",
+          "ru": "Семинары по алгоритмам, структурам данных, Python и C++ с практикой по основам computer science",
+          "fr": "Travaux dirigés sur les algorithmes, les structures de données, Python et C++, avec mise en pratique des fondamentaux de l'informatique"
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": { "en": "ITMO University", "ru": "Университет ИТМО", "fr": "Université ITMO" },
+      "degree": { "en": "M.Sc. in Computer Science", "ru": "магистратура, Computer Science", "fr": "Master en informatique" },
+      "start": "2023",
+      "end": "2025",
+      "area": {
+        "en": "Distributed systems, high-load architecture, parallel computing",
+        "ru": "Распределённые системы, высоконагруженная архитектура, параллельные вычисления",
+        "fr": "Systèmes distribués, architecture à forte charge, calcul parallèle"
+      },
+      "short": { "en": "M.Sc. CS @ ITMO (distributed systems)", "ru": "магистр CS, ИТМО (распределённые системы)", "fr": "M.Sc. CS @ ITMO (systèmes distribués)" }
+    },
+    {
+      "institution": { "en": "Lomonosov Moscow State University", "ru": "МГУ им. М. В. Ломоносова", "fr": "Université d'État Lomonossov de Moscou" },
+      "degree": { "en": "B.Sc. in Computer Science", "ru": "бакалавриат, Computer Science", "fr": "Licence en informatique" },
+      "start": "2018",
+      "end": "2022",
+      "area": {
+        "en": "Faculty of Computational Mathematics and Cybernetics, Department of Software Engineering — algorithms, systems programming, software design",
+        "ru": "Факультет ВМК, кафедра системного программирования — алгоритмы, системное программирование, проектирование ПО",
+        "fr": "Faculté de mathématiques computationnelles et de cybernétique, département de génie logiciel — algorithmes, programmation système, conception logicielle"
+      },
+      "short": { "en": "B.Sc. CS @ Lomonosov MSU (CMC)", "ru": "бакалавр CS, МГУ (ВМК)", "fr": "B.Sc. CS @ MSU Lomonossov (VMK)" }
+    }
+  ],
+  "skills": [
+    { "en": "High-load architecture and distributed systems", "ru": "Высоконагруженная архитектура и распределённые системы", "fr": "Architecture à forte charge et systèmes distribués" },
+    { "en": "Backend development: C++, Golang, Python", "ru": "Бэкенд-разработка: C++, Golang, Python", "fr": "Développement backend : C++, Golang, Python" },
+    { "en": "Data engineering and pipeline building", "ru": "Data engineering и построение пайплайнов", "fr": "Ingénierie de données et construction de pipelines" },
+    { "en": "Algorithms and database design", "ru": "Алгоритмы и проектирование баз данных", "fr": "Algorithmes et conception de bases de données" },
+    { "en": "Monitoring, observability, reliability", "ru": "Мониторинг, observability, надёжность", "fr": "Monitoring, observabilité, fiabilité" },
+    { "en": "Teamwork and cross-team communication", "ru": "Командная и кросс-командная работа", "fr": "Travail en équipe et communication inter-équipes" }
+  ],
+  "stack": [
+    { "name": { "en": "Languages", "ru": "Языки", "fr": "Langages" }, "items": ["C++", "Go", "Python", "SQL", "Bash"] },
+    { "name": { "en": "Backend", "ru": "Бэкенд", "fr": "Backend" }, "items": ["High-load", "Distributed systems", "Microservices", "REST API", "Concurrency"] },
+    { "name": { "en": "Data", "ru": "Данные", "fr": "Données" }, "items": ["PostgreSQL", "Kafka", "Redis", "Replication"] },
+    { "name": { "en": "Infrastructure", "ru": "Инфраструктура", "fr": "Infrastructure" }, "items": ["Docker", "CI/CD", "Observability", "Git", "Linux"] }
+  ],
+  "languages": [
+    { "name": { "en": "Russian", "ru": "Русский", "fr": "Russe" }, "level": { "en": "Native", "ru": "родной", "fr": "langue maternelle" } },
+    { "name": { "en": "English", "ru": "Английский", "fr": "Anglais" }, "level": { "en": "C1", "ru": "C1", "fr": "C1" } },
+    { "name": { "en": "French", "ru": "Французский", "fr": "Français" }, "level": { "en": "A2", "ru": "A2", "fr": "A2" } }
+  ]
+}

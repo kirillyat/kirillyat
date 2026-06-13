@@ -2,7 +2,7 @@
 
 **Software Engineer — high-load systems, distributed computing, backend (C++ / Go / Python)**
 
-📍 Moscow · 📧 [kirillyat@gmail.com](mailto:kirillyat@gmail.com) · 💬 [@kirillyat](https://t.me/kirillyat) · 🐙 [github.com/kirillyat](https://github.com/kirillyat)
+📍 Moscow · 📧 [kirillyat@gmail.com](mailto:kirillyat@gmail.com) · 💬 [@kirillyat](https://t.me/kirillyat) · 🐙 [github.com/kirillyat](https://github.com/kirillyat) · 🔗 [kirillyat](https://leetcode.com/kirillyat)
 
 ---
 
@@ -63,6 +63,6 @@ Experienced software engineer specializing in high-load systems, algorithms, dis
 
 | Language | Level |
 |----------|-------|
-| Russian  | Native |
-| English  | C1 |
-| French   | A2 |
+| Russian | Native |
+| English | C1 |
+| French | A2 |

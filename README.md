@@ -18,11 +18,14 @@
 
 ## About
 
-- 🛠 **SWE C++ @ Yandex** — geo discovery in Yandex Go maps
+<!-- PROFILE:ABOUT:START -->
+- 🛠 **Software Engineer, C++ @ Yandex** — high-performance C++ services for place discovery in Yandex Go maps
 - ⚡ Previously: **Avito** (Billing Core, Go) — cut financial report generation from 10 min to 250 ms
 - 🎓 M.Sc. CS @ ITMO (distributed systems) · B.Sc. CS @ Lomonosov MSU (CMC)
-- 👨‍🏫 Teaching algorithms & Python at Central University and HSE
-- 🌍 Russian · English (C1) · Français (A2)
+- 👨‍🏫 Teaching Python & web / algorithms & C++ at Central University and Higher School of Economics
+- 🌍 Russian (Native) · English (C1) · French (A2)
+<!-- PROFILE:ABOUT:END -->
+
 
 ## Resume / CV
 

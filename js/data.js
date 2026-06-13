@@ -63,42 +63,10 @@ const CONTENT = {
         },
       ],
     },
-    experience: {
-      title: "Опыт",
-      jobs: [
-        {
-          period: "2024 — сейчас", // TODO: проверь даты
-          company: "Финтех", // TODO: назови компанию, если захочешь
-          role: "Software Engineer",
-          desc:
-            "Бэкенд-сервисы платёжной платформы: проектирование API, интеграции через Kafka, PostgreSQL, Redis, CI/CD-пайплайны.",
-          tags: ["Python", "Kafka", "PostgreSQL", "Redis"],
-        },
-        {
-          period: "2022 — 2024", // TODO: заполни реальным опытом
-          company: "Компания N",
-          role: "Backend Developer",
-          desc: "TODO: опиши, что делал — продукт, команда, твоя зона ответственности и результаты.",
-          tags: ["Python", "Django", "Docker"],
-        },
-        {
-          period: "2020 — 2022", // TODO: заполни реальным опытом
-          company: "Компания M",
-          role: "Junior Developer",
-          desc: "TODO: опиши первый опыт — с чего начинал и чему научился.",
-          tags: ["Python", "SQL"],
-        },
-      ],
-    },
-    skills: {
-      title: "Стек",
-      groups: [
-        { name: "Языки", items: ["Python", "SQL", "Bash", "JavaScript", "Go"] },
-        { name: "Бэкенд", items: ["Django", "FastAPI", "REST API", "gRPC", "Celery"] },
-        { name: "Данные", items: ["PostgreSQL", "Redis", "Kafka", "SQLite"] },
-        { name: "Инфраструктура", items: ["Docker", "GitHub Actions", "Terraform", "Kubernetes", "Nginx"] },
-      ],
-    },
+    // опыт и стек живут в data/profile.json (единый источник) и
+    // приходят на сайт через window.PROFILE — здесь только заголовки секций
+    experience: { title: "Опыт" },
+    skills: { title: "Стек" },
     materials: {
       title: "Материалы",
       filterAll: "все",
@@ -229,42 +197,8 @@ const CONTENT = {
         },
       ],
     },
-    experience: {
-      title: "Experience",
-      jobs: [
-        {
-          period: "2024 — now",
-          company: "Fintech",
-          role: "Software Engineer",
-          desc:
-            "Backend services for a payment platform: API design, Kafka integrations, PostgreSQL, Redis, CI/CD pipelines.",
-          tags: ["Python", "Kafka", "PostgreSQL", "Redis"],
-        },
-        {
-          period: "2022 — 2024",
-          company: "Company N",
-          role: "Backend Developer",
-          desc: "TODO: describe what you built — product, team, your scope and impact.",
-          tags: ["Python", "Django", "Docker"],
-        },
-        {
-          period: "2020 — 2022",
-          company: "Company M",
-          role: "Junior Developer",
-          desc: "TODO: describe your first role — where you started and what you learned.",
-          tags: ["Python", "SQL"],
-        },
-      ],
-    },
-    skills: {
-      title: "Stack",
-      groups: [
-        { name: "Languages", items: ["Python", "SQL", "Bash", "JavaScript", "Go"] },
-        { name: "Backend", items: ["Django", "FastAPI", "REST API", "gRPC", "Celery"] },
-        { name: "Data", items: ["PostgreSQL", "Redis", "Kafka", "SQLite"] },
-        { name: "Infrastructure", items: ["Docker", "GitHub Actions", "Terraform", "Kubernetes", "Nginx"] },
-      ],
-    },
+    experience: { title: "Experience" },
+    skills: { title: "Stack" },
     materials: {
       title: "Materials",
       filterAll: "all",
@@ -395,42 +329,8 @@ const CONTENT = {
         },
       ],
     },
-    experience: {
-      title: "Expérience",
-      jobs: [
-        {
-          period: "2024 — auj.",
-          company: "Fintech",
-          role: "Software Engineer",
-          desc:
-            "Services backend d'une plateforme de paiement : conception d'API, intégrations Kafka, PostgreSQL, Redis, pipelines CI/CD.",
-          tags: ["Python", "Kafka", "PostgreSQL", "Redis"],
-        },
-        {
-          period: "2022 — 2024",
-          company: "Société N",
-          role: "Développeur Backend",
-          desc: "TODO : décris ce que tu as construit — produit, équipe, périmètre et résultats.",
-          tags: ["Python", "Django", "Docker"],
-        },
-        {
-          period: "2020 — 2022",
-          company: "Société M",
-          role: "Développeur Junior",
-          desc: "TODO : décris ta première expérience — tes débuts et ce que tu as appris.",
-          tags: ["Python", "SQL"],
-        },
-      ],
-    },
-    skills: {
-      title: "Stack",
-      groups: [
-        { name: "Langages", items: ["Python", "SQL", "Bash", "JavaScript", "Go"] },
-        { name: "Backend", items: ["Django", "FastAPI", "REST API", "gRPC", "Celery"] },
-        { name: "Données", items: ["PostgreSQL", "Redis", "Kafka", "SQLite"] },
-        { name: "Infrastructure", items: ["Docker", "GitHub Actions", "Terraform", "Kubernetes", "Nginx"] },
-      ],
-    },
+    experience: { title: "Expérience" },
+    skills: { title: "Stack" },
     materials: {
       title: "Ressources",
       filterAll: "tout",

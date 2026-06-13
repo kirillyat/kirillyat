@@ -2,7 +2,7 @@
 
 **Ingénieur logiciel — systèmes à forte charge, calcul distribué, backend (C++ / Go / Python)**
 
-📍 Moscou · 📧 [kirillyat@gmail.com](mailto:kirillyat@gmail.com) · 💬 [@kirillyat](https://t.me/kirillyat) · 🐙 [github.com/kirillyat](https://github.com/kirillyat)
+📍 Moscou · 📧 [kirillyat@gmail.com](mailto:kirillyat@gmail.com) · 💬 [@kirillyat](https://t.me/kirillyat) · 🐙 [github.com/kirillyat](https://github.com/kirillyat) · 🔗 [kirillyat](https://leetcode.com/kirillyat)
 
 ---
 

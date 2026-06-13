@@ -1,0 +1,133 @@
+{
+  "$schema": "https://kirillyat.ru/cv.json",
+  "basics": {
+    "name": "Kirill Yatsenko",
+    "label": "Software Engineer — high-load systems, distributed computing, backend (C++ / Go / Python)",
+    "email": "kirillyat@gmail.com",
+    "location": {
+      "city": "Moscow"
+    },
+    "summary": "Experienced software engineer specializing in high-load systems, algorithms, distributed computing, and backend development in Python, Golang, and C++.",
+    "profiles": [
+      {
+        "network": "Telegram",
+        "username": "@kirillyat",
+        "url": "https://t.me/kirillyat"
+      },
+      {
+        "network": "GitHub",
+        "username": "github.com/kirillyat",
+        "url": "https://github.com/kirillyat"
+      },
+      {
+        "network": "LeetCode",
+        "username": "kirillyat",
+        "url": "https://leetcode.com/kirillyat"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Yandex",
+      "position": "Software Engineer, C++",
+      "department": "Geo Discovery, Yandex Go",
+      "startDate": "2024-09",
+      "endDate": null,
+      "keywords": [
+        "C++"
+      ],
+      "highlights": [
+        "Architected high-performance C++ services for user discovery in Yandex Go maps",
+        "Designed new place-discovery user scenarios, improving engagement through cross-team collaboration",
+        "Built efficient search and exploration of venues and local experiences"
+      ]
+    },
+    {
+      "name": "Avito",
+      "position": "Software Engineer, Golang",
+      "department": "Billing Core",
+      "startDate": "2023-09",
+      "endDate": "2024-09",
+      "keywords": [
+        "Go"
+      ],
+      "highlights": [
+        "Optimized financial report aggregation, cutting generation time from 10 minutes to 250 ms (97.6% improvement)",
+        "Implemented reliable data replication ensuring consistency across analytical databases",
+        "Introduced observability and monitoring that prevented financial reporting discrepancies"
+      ]
+    },
+    {
+      "name": "Yandex",
+      "position": "Software Engineer, Python",
+      "department": "Driver Acquisition, Yandex Go",
+      "startDate": "2021-08",
+      "endDate": "2023-09",
+      "keywords": [
+        "Python"
+      ],
+      "highlights": [
+        "Developed backend services powering core platform features",
+        "Collaborated with cross-functional teams on system design and optimization"
+      ]
+    }
+  ],
+  "teaching": [
+    {
+      "organization": "Central University",
+      "position": "Lecturer",
+      "startDate": "2025-07",
+      "endDate": null,
+      "highlights": [
+        "Lectures and seminars on Python web development and modern frameworks"
+      ]
+    },
+    {
+      "organization": "Higher School of Economics",
+      "position": "Seminar Instructor",
+      "startDate": "2025-03",
+      "endDate": null,
+      "highlights": [
+        "Seminars on algorithms, data structures, Python, and C++ with hands-on instruction in core CS concepts"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "ITMO University",
+      "studyType": "M.Sc. in Computer Science",
+      "startDate": "2023",
+      "endDate": "2025",
+      "area": "Distributed systems, high-load architecture, parallel computing"
+    },
+    {
+      "institution": "Lomonosov Moscow State University",
+      "studyType": "B.Sc. in Computer Science",
+      "startDate": "2018",
+      "endDate": "2022",
+      "area": "Faculty of Computational Mathematics and Cybernetics, Department of Software Engineering — algorithms, systems programming, software design"
+    }
+  ],
+  "skills": [
+    "High-load architecture and distributed systems",
+    "Backend development: C++, Golang, Python",
+    "Data engineering and pipeline building",
+    "Algorithms and database design",
+    "Monitoring, observability, reliability",
+    "Teamwork and cross-team communication"
+  ],
+  "languages": [
+    {
+      "language": "Russian",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "C1"
+    },
+    {
+      "language": "French",
+      "fluency": "A2"
+    }
+  ]
+}

@@ -42,8 +42,13 @@
     renderSunPresets();
     updateSunCaption();
 
+    // опыт и стек берутся из канонического window.PROFILE (data/profile.json)
+    const P = window.PROFILE || { experience: [], stack: [] };
+    const jobs = P.experience.map((e) => e[lang]);
+    const groups = P.stack.map((g) => ({ name: g[lang], items: g.items }));
+
     // marquee: стек по кругу
-    const words = t.skills.groups.flatMap((g) => g.items);
+    const words = groups.flatMap((g) => g.items);
     $("marqueeTrack").innerHTML = [...words, ...words]
       .map((w) => `<span>${w}<i> ❋ </i></span>`)
       .join("");
@@ -63,20 +68,20 @@
       .join("");
 
     $("expTitle").textContent = t.experience.title;
-    $("timeline").innerHTML = t.experience.jobs
+    $("timeline").innerHTML = jobs
       .map(
         (j) => `
-        <div class="timeline__item reveal">
+        <div class="timeline__item reveal${j.kind === "teaching" ? " timeline__item--teaching" : ""}">
           <div class="timeline__period mono">${j.period}</div>
           <div class="timeline__head">${j.company} <em>· ${j.role}</em></div>
-          <p class="timeline__desc">${j.desc}</p>
+          <ul class="timeline__list">${j.highlights.map((h) => `<li>${h}</li>`).join("")}</ul>
           <div class="timeline__tags">${j.tags.map((x) => `<span class="tag">${x}</span>`).join("")}</div>
         </div>`
       )
       .join("");
 
     $("skillsTitle").textContent = t.skills.title;
-    $("skillsGrid").innerHTML = t.skills.groups
+    $("skillsGrid").innerHTML = groups
       .map(
         (g) => `
         <div class="skills__group tilt reveal">
